@@ -1,0 +1,26 @@
+Case_ID,Service_Line,Payer_Type,Authorization_Status,Eligibility_Confidence,Documentation_Complete,Routing_Confidence,Queue_Latency_Hours,Escalation_Count,Manual_Verification,Override_Used,Reconciliation_Event,Drift_Risk_Score,Trust_Risk_Score,Recovery_Status,Final_Outcome
+AST-001,Orthopedics,Commercial,Approved,96,Yes,95,4,0,No,No,No,12,8,Stable,Approved before service
+AST-002,Cardiology,Medicare Advantage,Pending,88,Yes,86,18,1,No,No,No,34,22,Monitoring,Awaiting payer response
+AST-003,Imaging,Commercial,Pending,79,No,81,26,2,Yes,No,Yes,58,64,Drift Risk,Documentation correction required
+AST-004,Surgery,Commercial,Delayed,72,No,74,38,4,Yes,Yes,Yes,77,82,Recovery Mode,Escalated to auth recovery queue
+AST-005,Physical Therapy,Medicaid,Approved,91,Yes,90,9,0,No,No,No,18,14,Stable,Approved
+AST-006,Oncology,Commercial,Pending,84,Yes,78,31,3,Yes,No,Yes,66,59,Drift Risk,Clinical note clarification pending
+AST-007,Neurology,Medicare Advantage,Denied,68,No,70,44,5,Yes,Yes,Yes,86,88,Recovery Mode,Denied due to documentation gap
+AST-008,Gastroenterology,Commercial,Approved,94,Yes,92,7,0,No,No,No,16,10,Stable,Approved
+AST-009,Cardiology,Commercial,Delayed,81,Yes,76,29,3,Yes,No,Yes,61,55,Drift Risk,Payer response delayed
+AST-010,Imaging,Medicaid,Pending,87,No,84,22,2,Yes,No,Yes,49,47,Monitoring,Missing order detail
+AST-011,Surgery,Commercial,Approved,97,Yes,96,5,0,No,No,No,10,7,Stable,Approved
+AST-012,Orthopedics,Medicare Advantage,Delayed,75,No,72,36,4,Yes,Yes,Yes,79,84,Recovery Mode,Routed for manual review
+AST-013,Physical Therapy,Commercial,Approved,93,Yes,91,11,1,No,No,No,22,15,Stable,Approved
+AST-014,Oncology,Medicare Advantage,Pending,82,Yes,80,28,3,Yes,No,Yes,64,57,Drift Risk,Payer medical necessity review
+AST-015,Neurology,Commercial,Delayed,78,No,73,35,4,Yes,Yes,Yes,81,79,Recovery Mode,Escalation required
+AST-016,Imaging,Commercial,Approved,95,Yes,94,6,0,No,No,No,11,9,Stable,Approved
+AST-017,Gastroenterology,Medicaid,Pending,86,Yes,82,20,1,No,No,No,38,29,Monitoring,Pending payer response
+AST-018,Surgery,Commercial,Denied,69,No,71,42,5,Yes,Yes,Yes,88,91,Recovery Mode,Denied for incomplete documentation
+AST-019,Cardiology,Commercial,Approved,92,Yes,90,8,0,No,No,No,15,12,Stable,Approved
+AST-020,Orthopedics,Medicare Advantage,Delayed,77,No,75,33,3,Yes,Yes,Yes,73,76,Drift Risk,Clarification needed
+AST-021,Physical Therapy,Commercial,Pending,89,Yes,86,17,1,No,No,No,32,25,Monitoring,Awaiting determination
+AST-022,Oncology,Commercial,Delayed,80,Yes,77,30,3,Yes,No,Yes,67,62,Drift Risk,Specialty review delay
+AST-023,Neurology,Medicaid,Pending,83,No,79,24,2,Yes,No,Yes,55,52,Monitoring,Documentation update required
+AST-024,Imaging,Commercial,Approved,96,Yes,95,3,0,No,No,No,8,6,Stable,Approved
+AST-025,Surgery,Medicare Advantage,Delayed,74,No,70,39,4,Yes,Yes,Yes,84,86,Recovery Mode,Escalation and reconciliation active
